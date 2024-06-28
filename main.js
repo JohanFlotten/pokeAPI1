@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Create shadow img element
         const shadow = document.createElement('img');
-        shadow.src = '../shadow.png';
+        shadow.src = 'shadow.png';
         shadow.classList.add('shadow');
         const container = document.getElementById('image-container');
         leftSide.appendChild(shadow);   
